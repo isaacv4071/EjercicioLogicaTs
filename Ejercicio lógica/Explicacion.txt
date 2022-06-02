@@ -1,0 +1,31 @@
+Pasos para ejecutar el script
+
+1) Ejecutar el comando "yarn" en la consola (Instalará la dependencia de Typescript).
+2) Ejecutar el script con el comando "yarn ts-node script.ts".
+
+
+
+Explicación de las preguntas
+
+1) Estado con mayor acumulado a la fecha.
+- Después de hacer el análisis del archivo time_series_covid19_deaths_US.csv este arroja que él 
+Menor número de muertes acumuladas hasta la fecha es American Samoa con 0 muertes.
+
+
+
+2) Estado con menor acumulado a la fecha.
+- Después de hacer el análisis del archivo time_series_covid19_deaths_US.csv este arroja que él 
+Mayor número de muertes acumuladas hasta la fecha es California con 61526 muertes.
+
+
+
+3) El porcentaje de muertes vs el total de población por estado.
+- En este punto tomamos la suma de todas las muertes acumuladas de un estado para luego dividirlas por
+la suma de todas la población del mismo para posteriormente multiplicarlo cada resultado por 100
+Dándonos así el porcentaje de muertes con respecto al total de la población por estado.
+
+
+
+4) Cuál fue el estado más afectado.
+- El estado más afectado es New Jersey porque su porcentaje de mortalidad es muy alto
+Con respecto al total de su población de este.
